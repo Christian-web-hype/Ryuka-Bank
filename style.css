@@ -1,0 +1,85 @@
+:root{
+    --bg: #151C1C;
+    --bg2: #333;
+    --acc: #E2B76A;
+    --txt: #f3eeee;
+    --fm: "Alegreya Sans", sans-serif;;
+}
+
+body{
+    background: var(--bg);
+}
+
+.logo{
+    width: 100px;
+    margin-left: 2.5rem;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    height: 25vh;
+    background: var(--bg);
+}
+
+.btn-auth{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: none;
+}
+
+.icon-nav{
+    font-size: 35px;
+    color: var(--acc);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.title{
+    color: var(--acc);
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: var(--fm);
+}
+
+.ev{
+    font-size: 25px;
+    color: var(--acc);
+}
+
+.sub-title{
+    color: var(--txt);
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: var(--fm);   
+}
+
+.p-header{
+    color: var(--txt);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: var(--fm);
+}
+
+.card-offer{
+    width: 250px;
+}
+
+.position1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 98;
+}
+
+.position2{
+    position: absolute;
+    z-index: 97;
+}
